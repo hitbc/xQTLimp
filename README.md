@@ -169,7 +169,8 @@ which means you need to install proper C++ compiling environment. Installing XCo
 xcode-select --install
 ```
 
-* Segmentation fault
+* Segmentation fault:
+
 This error might be due to various reasons. Please first double check if the parameters you specified satisfy our requirements. For example, -v parameter requires a folder path rather than a file path. And VCF files should be named in the format as "chr.1.user_defined_sting.vcf.gz". This is because when multiple chromosomes exist in your xQTL summaries, which is the most common case, xQTLImp will automatically search the folder under the naming scheme.
 If you have confidence in your inputs, please send us an email with your commands and light sample data.
 

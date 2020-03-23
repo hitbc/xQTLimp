@@ -75,7 +75,7 @@ This file includes summary statistics associated with pairs of variants and mole
 * xQTLImp only handle cis-xQTL associations because of the nature of LD, so variant and molecule should be on the same chromosome. </br>
 * The coordinates of variants and molecules should be always in same genome build (e.g. hg19).
 * The Z statistic should be computed as the effect of the same type of allele (Ref or Alt) for all data entries (i.e. The effect allele is Ref allele or Alt allele).  And the effect allele of imputed variants will be the same type of effect allele as the inputs.
-* The sign of Z statistics will be converted by xQTLImp if the user provided <ref, alt> alleles are in opposite to that in reference panel.
+* The sign of Z statistics will be converted by xQTLImp if the user provided <ref, alt> alleles are in opposite to that in the reference panel.
 * Data entries (input lines) would not be used for imputation if xQTLImp cannot locate the variant on reference panel, but they will still be written into outputs without loss of information. 
 
 
